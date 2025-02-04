@@ -6,13 +6,16 @@
     "start": "next start"
   },
   "dependencies": {
-    "next": "15.0.0-canary.182",
-    "react": "19.0.0-rc-2d16326d-20240930",
-    "react-dom": "19.0.0-rc-2d16326d-20240930"
+    "next": "15.2.0-canary.40",
+    "react": "19.0.0",
+    "react-dom": "19.0.0"
   },
   "devDependencies": {
     "@types/node": "^18.11.13",
-    "@types/react": "^18.0.26",
+    "@types/react": "19.0.8",
     "typescript": "^4.9.4"
+  },
+  "overrides": {
+    "@types/react": "19.0.8"
   }
 }
